@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #377D71;
+}
+.App{
+    overflow: hidden;
+}
+
+.img{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/R.8b61fddcaf5bc1a5bc0788db815c9e5f?rik=MlHLbIAB6zpTBw&riu=http%3a%2f%2fmedia.comicbook.com%2fuploads1%2f2015%2f08%2frick-and-morty---header-147026.jpg&ehk=z%2bRYbhCfCFFTjYnNilowPe9IZDLYEkCPLx7MtYZc1V0%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    padding: 20px;
+    text-align: center;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 20px ;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    width: 700px;
+    padding: 20px;
+    background-color: #1e5e74;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.info h2{
+    font-size: 2.7em;
+    font-weight: 800;
+    color: #fff;
+}
+
+.info ul{
+    display: flex;    
+}
+
+.info ul li {
+    padding-left: 15px;
+    color: #fff;
+}
+.info ul li span{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
+
+.dashboard{
+    margin: 1em;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    width: 300px;
+    background-color: #1e5e74;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+}
+.status{
+    text-align: center;
+    width: 90px;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    background-color: #000;
+}
+
+.main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.main span{
+    font-size: 18px;
+    font-weight: 600;
+}
